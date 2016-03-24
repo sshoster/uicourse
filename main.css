@@ -1,33 +1,33 @@
-body {
-        background: #c4d1d1;
-}
-.body {
+.main_body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
 }
-.body2 {
+.div1 {
     display: flex;
     flex: 1;
 }
 .content {
     flex: 1;
-    background: #ffc94e;
+    background: #6A5ACD;
 }
 .sidebar {
     /* 12em is the width of the columns */
     flex: 0 0 12em;
-    background: #c9ea5d;
+    background: #DDA0DD;
+}
+body {
+        background: #FFFFFF;
 }
 header
 {
-    background: #92e4c9;
+    background: #D3D3D3;
 }
 footer
 {
-    background: #f7846a;
+    background: #4B0082;
 }
 * {
     color: #333;
